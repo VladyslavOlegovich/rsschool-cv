@@ -1,0 +1,112 @@
+body {
+    background-color: honeydew;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto' sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blueviolet;
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+@media (max-width: 700px) {
+.info{
+    display: block;
+    text-align: center;
+}
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4{
+margin-bottom: 10px;
+}
+.info p {
+color: #86898f;
+margin: 0;
+}
+
+.social {
+    padding: 30px;
+    background: rgb(165, 158, 158);
+    border: 5px solid gray;
+    margin: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+padding: 15px 20px;
+background-color: red;
+margin-bottom: 10px;
+border-radius: 20px;
+margin-bottom: 25px;
+
+}
+.card h2 {
+    text-align: center;
+}
+
+.list {
+    padding: 0 0px;
+}
+.list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid blanchedalmond;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table tr:nth-child(1) {
+    background-color: cornsilk;
+}
+.contact h2 {
+    text-align: center;
+}
+
+.bg-orange {
+    background-color: #ff9F00;
+ 
+}
+
+.bg-teal {
+    background-color: #007e7e;
+}
+
+.bg-blue {
+    background-color: rgb(112, 112, 245);
+}
+
+footer .contacts {
+    display: block;
+    margin: 0 auto;
+}
+footer img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+
+}
